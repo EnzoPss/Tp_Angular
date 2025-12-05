@@ -12,7 +12,7 @@ export class App {
     this.getIP()
   }
 
-  title = 'Angular sans copier/coller !!!';
+  title: string = 'Angular sans copier/coller !!!';
   ipAddress: string = 'Inconnue IP';
 
   getIP()
